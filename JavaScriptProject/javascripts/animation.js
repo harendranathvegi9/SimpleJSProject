@@ -4,8 +4,8 @@ $(document).ready(function(){
 	$('ul').on('click', 'li.title', function() {
 		$(this)
 			.next()
-				.slideDown(200)
+				.slideDown(250)
 				.siblings('li.fields')
-					.slideUp(200);
+					.slideUp(250);
 	});
 });
